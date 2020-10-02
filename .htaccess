@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteRule ^perfil/?$ perfil.php [NC,L]
+  RewriteRule ^notificacao/?$ notificacoes.php [NC,L]
+  RewriteRule ^ajuda/?$ ajuda.php [NC,L]
+  RewriteRule ^timeline/?$ timeline.php [NC,L]
+  RewriteRule ^configurações?$ configuracoes.php [NC,L]
+  RewriteRule ^perfil-([0-9]+)?$ perfil.php?uid=$1 [NC]
+</IfModule>

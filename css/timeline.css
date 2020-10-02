@@ -1,0 +1,74 @@
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f1f1f1;
+
+}
+.contrasteB{
+  background: red;
+}
+#clposts{
+  width: 55%;
+}
+
+/*botao para abrir modal site*/
+#btnsite{
+  height: 20%;
+  width: 40%;
+}
+/*botao para abrir modal local*/
+#btnlocal{
+  height: 20%;
+  width: 40%;
+}
+/*caso nÃ£o tenha nenhuma avaliaÃ§Ã£o*/
+#semavaliacao{
+  width: 69%;
+  margin-left: 11px;
+}
+/*post*/
+#post_post{
+  width: 78%;
+  margin-left: 12px;
+
+}
+/*distancia inferior de um post para outro*/
+#post2_post{
+  margin-bottom: 15px;
+
+}
+/*imagem da pessoas que fez a avaliaÃ§Ã£o*/
+#imguser{
+  width: 74px;
+  height: 74px;
+}
+/*nome do usuario*/
+#nomeuser_post{
+  /* text-decoration: underline; */
+  font-size: 25px;
+  margin-left: 10px;
+}
+/*editar e excluir avaliaÃ§Ã£o*/
+#acao_post{
+  border: none;
+  background: #1B1C1D;
+}
+/*estilo quando for editar comentario*/
+#editcomentario:hover{
+ background: red;
+}
+#editcomentario{
+ border:none;
+ height: 30px;
+ width: 300px ;  
+}
+/*imagem do usuario que comentou*/
+#imgcomentario_post{
+  width: 45px;
+  height: 45px;
+}
+.acoes_post{
+
+}

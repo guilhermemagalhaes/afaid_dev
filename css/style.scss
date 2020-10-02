@@ -1,0 +1,81 @@
+*
+
+{
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*cabecalho da pagina*/
+header.login
+{
+	/*position: fixed;*/
+	background: #ff6624;
+	margin-left: 10em;
+	height: 6em;
+	width: 100em;
+	z-index: 10px;
+}
+
+h1.logotipo
+{
+	float: left;
+	font-size: 35px;
+	display: block;
+	margin-left: 10px;
+	margin-top: 13px;
+	color: #fff;
+}
+
+form
+{
+	/*position: fixed;*/
+	float: right;
+	margin-right: 12em;
+}
+
+form input
+{
+	font-size: 20px;
+	margin-top: 19px;
+	padding-right: 10px;
+	height: 2em;
+}
+
+input#logar
+{
+	position: absolute;
+	right: 8em;
+	margin-top: -41px;
+	border-radius: 30px;
+	background-color: #2196F3;
+	height: 45px;
+	width: 8em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*termino cabeçalho*/
+div.pagprincipal
+{
+	position: absolute;
+	background-color: #E5EDF1;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+div.pagprincipal img.maomobile
+{
+	position: absolute;
+	bottom: -16em;
+	position: relative;
+	width: 40em;
+	margin-left: 10em;
+}
+
+form
+{
+
+
+
+}
+

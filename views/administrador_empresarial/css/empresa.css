@@ -1,0 +1,98 @@
+#message{
+	z-index: 100;
+	position: absolute;
+	width: 400px;
+	height: 120px;
+	top: 25%;
+	left: 35%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+}
+#negado{
+	font-size: 20px;
+}
+#todascolunas{
+	top: 10%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: none;
+	box-shadow: none;
+}
+#coluna1{
+	/*background: red;*/
+	width: 0%;
+	height: 100%;
+	border: none;
+}
+#coluna2{
+	/*background: blue;*/
+	width: 30%;
+	height: 100%;
+}
+#coluna3{
+	/*background: orange;*/
+	width: 95%;
+	height: 100%;
+	border: none;
+	/*background: red;*/
+	box-shadow: none;
+}
+#botoesadd{
+	position: absolute;
+	border: none;
+	box-shadow: none;
+	width: 100%;
+	/*left: 35%;*/
+}
+#btn_novosite{
+	/*background: red;*/
+	width: 30%;
+	position: absolute;
+	left: 18%;
+}
+#btn_novolocal{
+	/*background: red;*/
+	width: 30%;
+	position: absolute;
+	right: 18%;
+}
+#seglocal{
+	/*background: red;*/
+	position: absolute;
+	left:37%;
+	width: 25%;
+	height: 20%;
+
+}
+#segsite{
+/*	background: blue;*/
+	position: absolute;
+	right: 10%;
+	width: 40%;
+	height: 30%;
+}
+#todasstatic{
+	position: absolute;
+	left: 10%;
+}
+#analise{
+	position: absolute;
+	top: 35%;
+	width: 80%;
+	left: 10%;
+	/*background: red;*/
+}
+#logo{
+	width: 120px;
+	height: 20px;
+	/*cursor: none;*/
+}
+#logo img{
+	position: absolute;
+	top: -45%;
+	width: 80px;
+	/*cursor: none;*/
+}
+#item:hover{
+	border-bottom: 1px solid white;
+}

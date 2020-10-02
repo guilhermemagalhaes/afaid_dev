@@ -1,0 +1,547 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin:0; padding:0; border:0; background:transparent;
+  /*vertical-align: baseline;*/
+}
+
+/* lists */
+.list-full, .list-full li,
+.list-auto, .list-auto li {width: 100%;float: left;display: block;position: relative;}
+.list-auto, .list-auto li { 
+  border: none;
+  width: auto; }
+
+  /* floats */
+  .float-l { float: left; }
+  .float-r {float: right;}
+
+  body{
+    background: #F1F1F1;
+  }
+  .clcentral{
+    margin-left: 500px;
+  }
+
+  .pesquisa {
+    width: 698px;
+    height: 36px;
+    border: none;
+    /* float: right; */
+    position: absolute;
+    /* margin-left: -1500px; */
+    /* margin-top: -4px; */
+    position: relative;
+    left: -23em;
+  }
+  .enviar-pesquisa {
+   background: #00CC73;
+   border: none;
+   margin-left: -1px;
+   /* margin-left: -802px; */
+   position: absolute;
+   height: 36px;
+   color: white;
+   /* margin-top: -4px; */
+   position: relative;
+   left: -23.2em;
+
+ }
+ .icone
+ {
+   width: 42px;
+   height: 42px;
+   margin-top: -8px;
+   /* position: absolute; */
+   /* position: relative;
+    left: -11em;
+    padding-right: -4em;
+    margin-right: 4em*/;
+  }
+  #perfil{
+    margin-top: -6px;
+  }
+
+
+
+  header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /*border-bottom: 1px solid #ccc;*/
+    background: #FF5722;
+    z-index: 2;
+  }
+
+  header h1 {
+    padding: 10px 0 0 10px;
+  }
+
+  header h1 a {
+    color: #fff;
+    text-decoration: none;
+    /* margin-left: 279px; */
+    position: absolute;
+    left: 16%;
+    font-size: 0.5em;
+    margin-top: 6px;
+  }
+  header h1 a:hover{
+    color: #fff;
+    text-decoration: none;
+    /*margin-left: 279px;*/
+    /* position: relative; */
+    /* font-size: 1.3em; */
+  }
+
+  header ul {
+    padding: 15px 10px 0 0;
+  }
+
+  header li {
+    /*border-left: 1px solid #ccc;*/
+  }
+
+  header li:first-child {
+    border: none;
+  }
+
+  header li a {
+    display: block;
+    padding: 0 10px;
+    color: #999;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: white;
+  }
+
+  header li a:hover {
+    color: #bdc3c7;
+  }
+
+  input#control-nav {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+  }
+  #pesquisa-menu{
+    /*margin-left: -1000px;*/
+    width: 500px;
+  }
+
+  .configpeq{
+    display: none;
+  }
+
+  .perfilpeq{
+    display: none;
+  }
+
+  #tlnot{
+    color: white;
+    font-size: 23px ;
+  }
+
+  .imgperfil{
+    width: 70px;
+    height: 70px;
+    /* margin-left: 80px; */
+    border-radius: 52px;
+    z-index: 1;
+    position: absolute;
+  }
+
+  #perfilcol {
+    background: white;
+    width: 300px;
+    /* height: 412px; */
+    border-radius: 4px;
+    margin-top: 29px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 29px;
+
+  }
+
+
+  #tudo{
+    margin-top: 68px;
+    margin-left: 10px;
+    width: 100%;
+    background: #F1F1F1;
+  }
+
+  .icmenu{
+    width: 50px;
+    height: 50px;
+  }
+  .linha{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 16px;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 240px;
+  }
+
+  li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+  }
+
+  .menuli a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 18px;
+    position: absolute;
+    margin-left: 14px;
+  }
+  .nameuser{
+    color: white;
+    font-size: 28px;
+    margin-bottom: -0px;
+    margin-left: 101px;
+    margin-top: 29px;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+  }
+  .nameuser:hover{
+    color: #f1f1f1;
+  }
+  #cl2{
+    background: #ecf0f1;
+
+    width: 980px;
+    height: 1100px;
+  }
+
+  #perfilnav{
+    display: none;
+  }
+  #perfilmenu2{
+    display: none;
+  }
+  /*@media only screen and (min-width: 600px) { ... }*/
+
+  #busca-menu{
+    background: #FF5722;
+    color: white;
+    position: fixed;
+    position: absolute;
+    left: 30%;
+  }
+
+
+
+  @media screen and (max-width: 770px) {
+    #primeiroitem2{
+    color: black;
+    /*font-family: monospace;*/
+    height: 50px;
+    width: 101%;
+    /*background: #CCE2FF;*/
+    margin-left: -2px;
+    margin-top: 56px;
+    font-size: 15px;
+    /*font-family: mallory;*/
+    text-decoration: none;
+    background: #FF5722;
+  }
+  .cima {
+    /* background: #f1f1f1; */
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+  .nameuser {
+    color: white;
+    font-size: 28px;
+    margin-bottom: -0px;
+    margin-left: 101px;
+    margin-top: -30px;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+}
+
+    .itemtudo2 {
+      color: black;
+      font-family: monospace;
+      height: 82px;
+      width: 200%;
+      /* background: #CCE2FF; */
+      margin-left: -12px;
+      margin-top: 10px;
+      font-size: 15px;
+      /* font-family: mallory; */
+      text-decoration: none;
+    }
+    .itemtudo2:hover {
+      background: #444444;
+      color: white;
+    }
+    .conf-menu{
+     position: absolute;
+     top: 0;
+     left: 100%;
+   }
+   #titulo {
+    margin-left: 50px;
+    /* margin-top: 7px; */
+    color: white;
+  }
+  .not-menu{
+    left: 82%;
+    position: absolute;
+    margin-top: -666px;
+  }
+  #icon {
+    margin-left: 15px;
+    /* margin-top: 5px; */
+    position: absolute;
+    color: white;
+  }
+  #busca-menu{
+    background: #FF5722;
+    color: white;
+    position: fixed;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+
+  #perfilmenu2{
+    display: block;
+  }
+  #post_post {
+    width: 93%;
+    margin-left: 12px;
+  }
+  #perfilnav{
+    display: block;
+  }
+  #perfilcol{
+    display: none;
+  }
+
+  #clposts{
+    width: 65%;
+  }
+
+  .configpeq{
+    display: block;
+    margin-top: 50px;
+    color: white;
+  }
+  #tudo{
+    /* margin-top: 60px; */
+    /*margin-left: 80px;*/
+  }
+
+  .exibir{
+    display: none;
+  }
+
+  .perfilpeq{
+    display: block;
+  }
+
+  .icone{
+    display: none;
+  }
+  #perfil{
+    display: none;
+  }
+
+
+  header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 328px;
+    border-left: 1px solid #ccc;
+    background: #FF5722;
+    /*overflow-x: auto;*/
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  header ul.list-auto {
+    padding: 0;
+  }
+
+  header ul.list-auto li {
+    width: 108%;
+    /*border: solid #ccc;*/
+    border-width: 0 0 1px;
+  }
+
+  header li a {
+    padding: 15px 10px;
+    color: white;
+
+  }
+
+  /*header li a:hover {
+    background-color: #ccc;
+    }*/
+
+    .control-nav { /* label icon */
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      display: block;
+      width: 30px;
+      padding: 5px 0;
+      border: solid #fff;
+      border-width: 3px 0;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .control-nav:before {
+      content: "";
+      display: block;
+      height: 3px;
+      background: #fff;
+    }
+
+    .control-nav-close {
+      position: fixed; /* label layer */
+      right: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      z-index: 1;
+      background: rgba(0,0,0,0.4);
+      -webkit-transition: all 500ms ease;
+      transition: all 500ms ease;
+      -webkit-transform: translate(100%, 0);
+      -ms-transform: translate(100%, 0);
+      transform: translate(100%, 0);
+    }
+
+    /* checked nav */
+    input#control-nav {
+      display: block;
+    }
+
+    input#control-nav:focus ~ .control-nav {
+      border-color: #000;
+      box-shadow: 0px 0px 9px rgba(0,0,0,0.3);
+    }
+
+    input#control-nav:focus ~ .control-nav:before {
+      background: #000;
+    }
+
+    input#control-nav:checked ~ nav,
+    input#control-nav:checked ~ .control-nav-close {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+    header+section {
+      padding-top: 80px;
+    }
+
+
+    .pesquisa {
+      width: 194px;
+      height: 36px;
+      border: none;
+      /* float: right; */
+      position: absolute;
+      /*margin-top: 125px;*/
+      margin-left: -1px;
+      /*background: red;*/
+    }
+    .enviar-pesquisa {
+      background: #00CC73;
+      border: none;
+      margin-left: 193px;
+      position: absolute;
+      height: 36px;
+      color: white;
+      /*margin-top: 125px;*/
+      width: 56px;
+    }
+    #nav{
+      display: none;
+    }
+    header h1 a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 280px;
+      position: relative;
+      font-size: 1.3em;
+    }
+    /*770px*/
+
+
+  }
+
+  @media screen and (max-width: 560px) {
+    #perfilmenu2{
+      display: block;
+    }
+
+    #post_post {
+      width: 93%;
+      margin-left: 12px;
+    }
+    header h1 {
+      font-size: 20px;
+      line-height: 40px;
+    }
+
+    header h1 a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 150px;
+      position: relative;
+      font-size: 1.3em;
+    }
+
+    #perfilcol{
+      display: none;
+    }
+
+    #nav{
+      display: none;
+    }
+
+  }
+
+/*@media only screen and (min-width: 992px) { ... }
+
+@media only screen and (min-width: 1382px) { ... }
+*/

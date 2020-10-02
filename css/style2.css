@@ -1,0 +1,2117 @@
+*{
+
+  padding: 0 auto;
+  margin: 0;
+}
+body{
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  overflow-x: hidden;
+}
+
+/*cabeÃƒÆ’Ã‚Â§alho da pagina (nav)*/ 
+
+
+header.login {
+ position: absolute;
+ background:#F36538;
+ height: 3.5em;
+ width: 100%;
+ position: fixed;
+ z-index: 999;
+ box-shadow: 10px 7px 15px rgba(0, 0, 0, 0.2);
+ top: 0;
+ left: 0;
+}
+
+.logotipo {
+  width: 7em;
+  top: 0.5em;
+  position: relative;
+  left: 1em;
+}
+
+
+form.formlogin{
+
+  display: inline-flex;
+  height: 6%;
+}
+
+.loginface{
+
+ width: 10em;
+ position: left;
+ position: relative;
+ left: 52em;
+ top: 0.6em;
+ height: 2.5em;
+
+}
+
+
+.input_nome_login
+{
+ width: 200px;
+ border: none;
+ background: #fff;
+ position: relative;
+ top: 1em;
+ left: 6em;
+ height: 20px;
+ padding: 1em;
+}
+
+.input_senha_login
+{
+  width: 200px;
+  margin: 0px 10px;
+  border: none;
+  background: #fff;
+  position: relative;
+  /* top: -0.5em; */
+  top: 1em;
+  padding: 1em;
+  height: 20px;
+  left: 6em;
+}
+
+.btn_login
+{
+ width: 300px;
+ border: none;
+ position: relative;
+ height: 2.5em;
+ left: 5em;
+ width: 6em;
+ top: 1em;
+ background: #4CAF50;
+ color: #fff;
+ cursor: pointer;
+}
+
+.btn_login:focus{
+
+  opacity: 0.8; 
+}
+
+
+.btn_cadastro
+{
+ width: 300px;
+ border: 2px solid;
+ position: relative;
+ /* height: 2.5em; */
+ left: 8em;
+ width: 8em;
+ top: 1em;
+ background: none;
+ color: #fff;
+ cursor: pointer;
+ text-decoration: none;
+ height: 2em;
+}
+
+.btn_cadastro:hover{
+
+  opacity: 0.8;
+}
+
+.btn_cadastro a {
+padding-left: 3px;
+}
+
+
+.formlogin
+{
+  position: absolute;
+  right: 12em;
+}
+
+/*termino do cabeÃƒÆ’Ã‚Â§alho*/
+
+/*inicio da pagina principal e barra de pesquisa*/
+
+.principal {
+ background-image: url(../img/fundo.jpg);
+ /* position: relative; */
+ background-color: #E5EDF1;
+ width: 100%;
+ background-size: cover;
+ height: 53em;
+}
+
+
+form.busca{
+
+  position: relative;
+
+  top: 18em;
+  width: 50%;
+  right: -27em;
+}
+
+.barrapesquisa{
+
+  border: none;
+  height: 4em;
+  width: 70em;
+  padding-left: 10px;
+  position: relative;
+  top: 10em;
+}
+
+.botao{
+ float: right;
+ position: relative;
+ right: 29em;
+ top: 22.9em;
+ height: 3.48em;
+ border: none;
+ width: 4em;
+}
+
+.titulo{
+
+  font-size: 36px;
+  color: #fff;
+  position: relative;
+  top: 5em;
+  text-align: center;
+  left: 0em;
+}
+
+
+
+.lead{
+  color: #fff;
+  font-size: 24px;
+  width: 27em;
+  left: 25.5em;
+  top: -16.5em;
+  position: relative;
+  font-weight: bold;
+}
+
+
+.jumbotron{
+
+  position: absolute;
+  top: 44em;
+}
+
+.seta_rolagem img{
+  width: 2.5em;
+  position: relative;
+  transform: scale(1, 1);
+  left: 56.9em;
+  top: -4.5em;
+  opacity: 0.5;
+
+}
+
+/*termino da pagina principal e barra de pesquisa*/
+
+
+
+/*apresentaÃƒÆ’Ã‚Â§ao app */
+
+.imgoogle{
+  width: 10em;
+  float: right;
+  position: relative;
+  left: -37.5em;
+  top: 38.5em;
+}
+
+.imgcelular{
+
+width: 27em;
+
+position: relative;
+
+left: 17em;
+
+top: 9em;
+}
+
+#slideshow {
+  margin: 80px auto;
+  position: absolute;
+  width: 249px;
+  height: 240px;
+  padding: 10px;
+  top: 23px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
+  /* left: -31em; */
+  right: 82em;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+.titulodescricaoapp{
+
+  position: relative;
+  top: -8.5em;
+  font-size: 3em;
+  left: 6em;
+
+}
+.subdescricaoapp{
+  width: 21em;
+  position: relative;
+  top: -16em;
+  float: right;
+  right: 19em;
+
+}
+
+.setapreta{
+  position: absolute;
+  right: 60em;
+  width: 2.5em;
+  top: 56em;
+  z-index: 888;
+  opacity: 0.3;
+}
+
+.imglocalizacao{
+
+  position: relative;
+  top: -31.8em;
+  width: 6em;
+  float: right;
+  right: 32.8em;
+}
+
+
+h1{
+
+ text-align: center;
+ font-size: 31px;
+ left: -0.5em;
+ position: relative;
+}
+
+p{
+
+  text-align: center;
+  font-size: 23px;
+  position: relative;
+  top: 3em;
+}
+
+.apresentacao{
+
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+
+.hr1{
+  height: 3px;
+  border: none;
+  color: #000;
+  background-color: #ff7d0d;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  top: -25em;
+  width: 66em;
+  right: -30.2em;
+  float: right;
+
+}
+
+.hr2{
+
+  right: -52.9em;
+  position: relative;
+  top: -25.29em;
+  background-color: #ff7d0d;
+  border: none;
+}
+
+
+/*termino da apresentacao do app*/
+
+
+/*inicio da pagina de ideia*/
+
+
+section.sobrenos {
+  display: inline;
+  width: -8em;
+  height: 39em;
+  top: -10em;
+  position: relative;
+  right: -48em;
+  display: inline-block;
+  padding: 1em;
+}
+
+.lampadaimg {
+
+  height: 580px;
+  background: url(../img/lampadad.png)no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: relative;
+  bottom: -12.5em;
+  left: 11.5em;
+  width: 50em;
+
+}
+
+
+.tituloideia h1{
+  text-align: center;
+  font-size: 53px;
+  position: relative;
+  border-radius: 6px;
+  color: #000;
+  left: -0.5em;
+  top: -1.2em;
+}
+
+.tituloideia h1::after
+{
+  content: "";
+  size: 5px;
+  display: block;
+  width: 118.5%;
+  height: 3px;
+  color: #000;
+  background-color: #ff7d0d;
+  margin-left: -86px;
+}
+
+.ideia {
+  transition: all 1.5s;
+  top: -9em;
+  height: 30em;
+  left: -42em;
+  position: relative;
+  right: -1581px;
+  width: 44.5em;
+  opacity: 0;
+  text-decoration-color: ;
+  /* border-radius: 25px; */
+  color: black;
+  /* background: #dfe5d7; */
+  background: -moz-linear-gradient(-45deg, #dfe5d7 74%, #fcfff4 98%, #fcfff4 98%, #b3bead 100%);
+  /* background: -webkit-linear-gradient(-45deg, #dfe5d7 74%,#fcfff4 98%,#fcfff4 98%,#b3bead 100%); */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe5d7', endColorstr='#b3bead',GradientType=1 );
+}
+.ideia p {
+
+
+  font-size: 28px;
+  left: -1em;
+  top: -1em;
+}
+
+
+.imglocalizacao2{
+
+ position: relative;
+ top: -45.5em;
+ width: 6em;
+ left: 0.59em;
+
+}
+
+.hr3{
+ height: 3px;
+ border: none;
+ color: #000;
+ background-color: #ff7d0d;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ position: relative;
+ top: -39em;
+ width: 54em;
+ right: 49.8em;
+ float: left;
+}
+
+
+.hrideia{
+ /* right: -52.9em; */
+ position: relative;
+ /* top: -35.28em; */
+ background-color: #ff7d0d;
+ border: none;
+ float: left;
+ left: 3.7em;
+ top: -39.5em;
+}
+/*termino da pagina de ideia*/
+
+
+/*incio da rodape da pagina*/
+
+footer {
+  background: #549BBF;
+  height: 37em;
+  position: relative;
+  bottom: -6em;
+  right: 49em;
+  width: 119em;
+}
+
+
+footer #email{
+
+  position: relative;
+  bottom: -10em;
+  left: 7em;
+
+}
+
+.fundo{
+  background: red;
+}
+
+form.formulario_contato{
+  position: relative;
+  right: -18em;
+  cursor: pointer;
+  
+  width: 19%;
+  height: 350px;
+}
+
+.input_nome_contato{
+
+  background-color: #fff;
+
+  border: none;
+
+  height: 1.8em;
+
+  width: 24em;
+
+  padding-bottom: 12px;
+
+  margin-bottom: 1em;
+
+  padding: 1em;
+
+  display: inline-block;
+}
+
+.input_email_contato{
+
+  background-color: #fff;
+
+  border: none;
+
+  height: 1.8em;
+
+  position: relative;
+
+
+  width: 24em;
+
+  padding: 1em;
+}
+.mensagem_contato{
+
+  margin-top: 1em;
+
+  position: relative;
+
+  width: 24em;
+
+  padding: 1em;
+}
+
+.btn_envia {
+  border: none;
+  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  /* width: 12em; */
+  margin-top: 1em;
+  position: relative;
+  float: right;
+  /* top: 31em; */
+  margin-right: 11px;
+  /* right: 65em; */
+  /* height: 4em; */
+  /* top: 23em; */
+  background: #F36538;
+  box-shadow: 0px 8px 0px #bf4e2a;
+  color: #FFF;
+  font-size: 20px;
+  padding: 10px 50px;
+}
+
+.btn_envia:focus{
+  box-shadow: none;
+  position: relative;
+  top: 8px;
+}
+
+.titulofooter{
+
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  top: 18px;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+
+}
+
+
+
+}
+
+
+/*termino do rodape da pagina */
+
+
+@media only screen and (min-width: 1700px){
+
+
+
+  .botao {
+    right: 26em;
+  }
+
+  .barrapesquisa {
+    width: 62em;
+    left: -5em;
+  }
+
+  .lead {
+
+    left: 21em;
+
+  }
+
+
+  .submenu a {
+
+    left: -9.2em;
+
+  }
+  .seta_rolagem img {
+
+    left: 50em;
+
+  }
+
+  .dois_intr {
+
+
+    left: 33em;
+
+  }
+
+  .loginface{
+
+    left: 35em;
+  }
+
+  .ideia {
+
+    width: 72em;
+    
+  }
+
+  .sobrenos li {
+
+    right: 18em;
+
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1830px){
+
+  .loginface {
+    left: 46em;
+  }
+  .botao {
+    right: 26em;
+    
+  }
+  .barrapesquisa {
+    
+    width: 62em;
+    left: 4em;
+  }
+
+  .imgcelular {
+    left: 9em;
+  }
+
+  #slideshow {
+    right: 84em;
+  }
+
+  .hr2 {
+    right: -46.1em;
+  }
+
+  .imglocalizacao {
+    top: -31.8em;
+    right: 32.95em;
+  }
+
+  .setapreta {
+   right: 57em;
+ }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 1800px){
+
+  #slideshow {
+    right: 74em;
+  }
+
+  .botao {
+    
+    right: 23em;
+
+    
+  }
+
+  .lead {
+
+    left: 23em;
+    
+
+  }
+
+
+  .seta_rolagem img {
+
+    left: 53.5em;
+
+  }
+
+
+  .loginface{
+
+    left: 44em;
+  }
+
+  .setapreta {
+    
+    top: 56em;
+    right: 55em;
+    
+  }
+
+
+}
+
+@media only screen and (max-width: 1650px){
+
+  .loginface {
+    left: 34em;
+  }
+
+  .barrapesquisa {
+    width: 62em;
+    left: -6em;
+  }
+
+  .lead {
+    left: 20em;
+  }
+  .imglocalizacao {
+    top: -31.8em;
+    right: 21.8em;
+  }
+  .seta_rolagem img {
+    left: 50em;
+  }
+
+  .subdescricaoapp {
+    right: 13em;
+  }
+
+  .imgoogle {
+    left: -28.5em;
+  }
+  .hr2 {
+    right: -46em;
+  }
+
+  .titulodescricaoapp {
+    top: -10.2em;
+    font-size: 2.5em;
+    left: 7em;
+  }
+
+  .hr1 {
+   width: 55em;
+ }
+
+ .setapreta {
+  top: 56em;
+  right: 52em;
+}
+
+#slideshow {
+  right: 72em;
+}
+
+.titulofooter {
+  left: -3em;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 1600px){
+
+  .barrapesquisa {
+    position: relative;
+    left: -10em;
+  }
+
+  .botao {
+    left: -23em;
+  }
+  .lead {
+    left: 18.5em;
+  }
+
+  .submenu a {
+    left: -7.5em;
+  }
+
+  .seta_rolagem img {
+    left: 46.4em;
+
+  }
+
+  .dois_intr {
+    left: 27em;
+  }
+
+  .loginface {
+    left: 32em;
+  }
+
+  .sobrenos li {
+
+    right: 22em;
+    
+  }
+
+  .ideia {
+
+    height: 29em;
+    width: 65em;
+
+  }
+
+  .ideia p {
+    font-size: 27px;
+    width: 26em;
+  }
+
+  .integrante {
+    width: 8em;
+    left: 0;
+
+  }
+
+
+  #imagemcell {
+
+    width: 22em;
+
+  }
+  .imgcelular {
+    
+    left: 4em;
+    
+  }
+  .tituloideia h1 {
+    
+    left: -3.5em;
+    
+  }
+
+  .tituloideia h1::after {
+    
+    width: 96.5%;
+  }
+
+  .lampadaimg {
+
+   left: 3.5em;
+   
+ }
+ .hrideia {
+  top: -38.5em;
+}
+
+.imglocalizacao2 {
+  top: -44.5em;
+  
+}
+
+.setapreta {
+  right: 48em;
+}
+
+.hr1 {
+  right: -39.2em;
+  
+}
+
+.imglocalizacao {
+  right: 23.8em;
+}
+
+.subdescricaoapp {
+  right: 12em;
+}
+
+.imgoogle {
+  left: -27.5em;
+}
+
+.hr2 {
+  right: -40.9em;
+}
+
+.titulofooter {
+  left: -3em;
+}
+
+.titulo {
+  left: 0em;
+}
+
+}
+@media only screen and (max-width: 1550px){
+
+  .loginface {
+    left: 29em;
+  }
+  .botao {
+    left: -20em;
+  }
+
+  .hr1 {
+    right: -31.2em;
+  }
+  .hr2 {
+    right: -40.8em;
+  }
+  .imglocalizacao {
+    right: 20.75em;
+    top: -32em;
+  }
+
+}
+
+@media only screen and (max-width: 1500px){
+
+
+  .botao {
+    /* background: green; */
+    float: right;
+    position: relative;
+    
+    border: none;
+    width: 4.5em;
+    right: 3em;
+    
+  }
+
+  form.busca {
+    position: relative;
+
+    top: 18em;
+    width: 48%;
+    right: -23em;
+  }
+
+  .barrapesquisa {
+    border: none;
+    height: 4em;
+    width: 70em;
+    left: -10em;
+    position: relative;
+  }
+
+  .lead {
+
+    left: 17em;
+
+  }
+
+  .seta_rolagem img {
+
+    left: 44.6em;
+
+  }
+
+  #imagemcell {
+
+    width: 20em;
+
+  }
+  
+
+  .sobrenos li {
+
+    right: 26em;
+
+  }
+
+  .loginface {
+    left: 25em;
+  }
+
+  .ideia {
+    height: 29em;
+    width: 58em;
+  }
+
+  .ideia p {
+    font-size: 28px;
+  }
+
+  #slideshow {
+    right: 68em;
+  }
+
+  .subdescricaoapp {
+    
+    right: 10em;
+  }
+
+  .imgoogle {
+
+    left: -24.5em;
+    top: 38.5em;
+  }
+
+  .hr1{
+    top: -35em;
+    width: 85em;
+    
+    
+  }
+
+  .imgcelular {
+   
+    left: 4em;
+    
+  }
+
+  .imglocalizacao {
+    
+    top: -41.8em;
+    left: 34em;
+    
+  }
+  .setapreta {
+    top: 56em;
+    right: 45em;
+  }
+
+  .tituloideia h1 {
+   
+    left: -3.5em;
+    top: -1.2em;
+  }
+  .tituloideia h1::after {
+   width: 105.5%;
+   
+ }
+
+ .ideia p {
+  font-size: 25px;
+  width: 27em;
+  left: -3em;
+}
+
+.lampadaimg {
+  
+  left: -1.5em;
+  
+}
+
+.titulofooter {
+  left: -4.5em;
+}
+
+}
+
+@media only screen and (max-width: 1450px){
+
+  .loginface {
+    left: 23em;
+  }
+
+  .botao {
+   
+    left: -17em;
+  }
+
+  .barrapesquisa {
+    
+    width: 64em;
+  }
+
+  .seta_rolagem img {
+    left: 43.6em;
+  }
+
+  .hr1 {
+    top: -35em;
+    width: 87em;
+  }
+
+  .hr2 {
+    right: -41.7em;
+    top: -25.2em;
+  }
+  .hrideia {
+    top: -38.5em;
+    left: 2.2em;
+  }
+  .imglocalizacao2 {
+    top: -44.5em;
+    left: -0.95em;
+  }
+  #slideshow {
+    right: 66em;
+  }
+  .imglocalizacao {
+    top: -41.6em;
+    left: -44.8em;
+  }
+
+  .setapreta {
+    right: 43em;
+  }
+
+  .ideia p {
+    left: -2em;
+  }
+
+
+}
+
+@media only screen and (max-width: 1400px){
+
+  .loginface {
+    left: 19em;
+  }
+
+  .barrapesquisa {
+    left: -8em;
+  }
+
+  .lead {
+    left: 15em;
+  }
+
+  .titulo {
+    
+    left: 0em;
+  }
+
+  .seta_rolagem img {
+    left: 40.6em;
+  }
+  #slideshow {
+    right: 61em;
+  }
+  .hr2 {
+    right: -37.6em;
+  }
+  .titulodescricaoapp {
+    position: relative;
+    top: -10em;
+    font-size: 2.5em;
+    left: 7em;
+  }
+  .hr1 {
+    top: -35em;
+    width: 87em;
+  }
+
+  .subdescricaoapp {
+    right: 7.5em;
+  }
+
+  .imglocalizacao {
+    top: -41.7em;
+    left: -44.75em;
+  }
+
+  .imgoogle {
+    left: -21em;
+  }
+
+  .hrideia {
+    left: 2.1em;
+  }
+
+  .imglocalizacao2 {
+    left: -1em;
+  }
+  .barrapesquisa {
+    border: none;
+    height: 4em;
+    width: 58em;
+    left: -8em;
+    position: relative;
+  }
+  .botao {
+    left: -16em;
+  }
+  .setapreta {
+    right: 42em;
+  }
+
+}
+@media only screen and (max-width: 1370px){
+
+  .barrapesquisa {
+    border: none;
+    height: 4em;
+    width: 54em;
+    left: -7em;
+    position: relative;
+  }
+
+  .loginface {
+    left: 17em;
+  }
+
+  .lead {
+    left: 15em;
+  }
+
+  .seta_rolagem img {
+    left: 40.6em;
+  }
+
+  #slideshow {
+    right: 61em;
+  }
+
+  .setapreta {
+    top: 56em;
+    right: 42em;
+  }
+
+  .hr1 {
+    top: -35em;
+    width: 88em;
+  }
+  .imglocalizacao {
+    top: -41.5em;
+    left: -45.7em;
+  }
+
+  .imglocalizacao2 {
+    position: relative;
+    top: -44.5em;
+    width: 6em;
+    left: -1em;
+  }
+  .hr2 {
+    right: -34.78em;
+    
+  }
+
+  .hrideia {
+    left: 2.1em;
+    top: -38.5em;
+  }
+
+  .botao {
+    left: -18em;
+  }
+
+}
+
+@media only screen and (max-width: 1350px){
+
+  .titulo {
+    font-size: 33px;
+    color: #fff;
+    position: relative;
+    top: 7em;
+    text-align: center;
+    left: 0em;
+  }
+
+  .lead {
+    left: 15em;
+    top: -19em;
+  }
+
+  .barrapesquisa {
+    border: none;
+    height: 4em;
+    width: 50em;
+    left: -6em;
+    position: relative;
+  }
+
+  .seta_rolagem img {
+    left: 39.6em;
+  }
+
+  .loginface {
+    left: 16em;
+  }
+
+  #slideshow {
+    right: 59em;
+  }
+  .hr1 {
+    top: -35em;
+    width: 78em;
+  }
+
+  .titulodescricaoapp {
+    position: relative;
+    top: -10.2em;
+    font-size: 2.5em;
+    left: 6em;
+  }
+
+  .lampadaimg {
+   
+    width: 37em;
+  }
+  .imglocalizacao2 {
+    position: relative;
+    top: -44.5em;
+    width: 6em;
+    left: -1.1em;
+  }
+
+  .setapreta {
+    right: 39em;
+  }
+  .imglocalizacao {
+    top: -41.5em;
+    left: -44.5em;
+  }
+
+}
+
+@media only screen and (max-width: 1300px){
+
+  .loginface {
+    left: 13em;
+  }
+
+  .lead {
+    left: 13em;
+    top: -19em;
+  }
+
+  .seta_rolagem img {
+    left: 38.6em;
+  }
+
+  .hr1 {
+    top: -35em;
+    width: 84em;
+  }
+  .hr2 {
+    right: -34.4em;
+  }
+  .imglocalizacao {
+    top: -41.7em;
+    left: -41.7em;
+  }
+
+  #slideshow {
+    right: 55em;
+  }
+
+  .tituloideia h1::after {
+    width: 99.5%;
+  }
+
+  .hrideia {
+    left: -1.3em;
+    top: -38.5em;
+  }
+
+  .imglocalizacao2 {
+    top: -44.5em;
+    width: 6em;
+    left: -4.45em;
+  }
+
+  .titulofooter {
+    left: -6.5em;
+  }
+
+}
+
+@media only screen and (max-width: 1250px){
+
+  .loginface {
+    left: 10em;
+  }
+
+  .barrapesquisa {
+    width: 50em;
+    left: -10em;
+  }
+  .botao {
+    left: -15em;
+  }
+
+  .seta_rolagem img {
+    left: 37.6em;
+  }
+
+  .hr2 {
+    right: -31.2em;
+  }
+
+  .imglocalizacao {
+    left: -41.8em;
+  }
+
+  #slideshow {
+    right: 53em;
+  }
+
+  .setapreta {
+    right: 36em;
+  }
+  .imglocalizacao2 {
+    top: -44.6em;
+    
+  }
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+  .loginface {
+    left: 7em;
+  }
+
+  .titulo {
+    font-size: 30px;
+    left: 0;
+  }
+
+  .lead {
+    left: 10em;
+    top: -19em;
+  }
+
+  .barrapesquisa {
+   
+    width: 55em;
+    left: -14em;
+  }
+
+  .botao {
+    left: -12em;
+  }
+  .seta_rolagem img {
+    left: 35.6em;
+  }
+  #slideshow {
+    right: 50em;
+  }
+  .titulodescricaoapp {
+
+    top: -12.5em;
+    font-size: 2em;
+    
+  }
+  .subdescricaoapp {
+    right: 7em;
+  }
+
+  .imgoogle {
+    left: -20.5em;
+    top: 37.5em;
+  }
+
+  .hr1 {
+    top: -35em;
+    width: 81em;
+  }
+  .hr2 {
+    right: -31.1em;
+  }
+  .imglocalizacao {
+    top: -41.7em;
+    left: -38.7em;
+  }
+  .setapreta {
+    top: 56em;
+    right: 35em;
+  }
+  .tituloideia h1 {
+   left: -5.5em;
+   top: -1.2em;
+   font-size: 45px;
+ }
+
+ .tituloideia h1::after {
+  width: 95%;
+}
+.ideia p {
+  font-size: 21px;
+  width: 27em;
+  left: -3em;
+  top: -2em;
+}
+.lampadaimg {
+  left: -8.5em;
+}
+.imglocalizacao2 {
+  top: -44.5em;
+  left: -11.05em;
+}
+
+.titulofooter {
+  left: -7.5em;
+}
+
+.hrideia {
+  left: -7.95em;
+  top: -38.5em;
+}
+.imgcelular {
+  left: 3em;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1150px){
+
+  .barrapesquisa {
+    
+    width: 43em;
+    left: -10em;
+    
+  }
+
+
+  .titulo {
+    font-size: 29px;
+    
+    top: 10em;
+    
+  }
+  .botao {
+    left: -15em;
+  }
+
+  .lead {
+    left: 9.5em;
+    top: -17em;
+  }
+
+  .submenu a {
+    left: -1.5em;
+  }
+
+  .seta_rolagem img {
+    left: 33em;
+  }
+  .titulodescricaoapp {
+    position: relative;
+    top: -14.2em;
+    font-size: 1.8em;
+    left: 7.5em;
+  }
+
+  .imgoogle {
+    left: -16em;
+    top: 37.5em;
+  }
+
+  .imglocalizacao {
+    top: -41em;
+    left: -33.9em;
+  }
+
+  #imagemcell {
+    width: 19em;
+    top: 67em;
+    left: 7em;
+  }
+
+  .subdescricaoapp {
+    right: 4em;
+  }
+
+  #slideshow {
+    right: 46em;
+  }
+
+  .tela-celular {
+
+    left: 10.8%;
+    top: 118.2%;
+  }
+
+  .loginface {
+    left: 5em;
+    width: 9em;
+  }
+
+  .ideia {
+   height: 27em;
+   width: 37em;
+ }
+
+ .ideia p {
+  font-size: 24px;
+
+}
+
+.lampadaimg {
+  width: 425px;
+  left: -9em;
+  background: url(../img/lampadad.png) no-repeat;
+
+}
+
+.imglocalizacao2 {
+  position: relative;
+  top: -42.5em;
+  width: 6em;
+  left: -13.41em;
+}
+
+.hr1{
+  width: 67em;
+}
+
+.setapreta {
+  top: 56em;
+  right: 33em;
+}
+
+.tituloideia h1 {
+  left: -0.5em;
+  top: -1.2em;
+}
+
+.mensagem_contato {
+ 
+ left: -0.2em;
+ width: 36em;
+}
+
+
+
+.btn_envia {
+  top: 0em;
+  left: 7em;
+}
+
+.input_nome_contato {
+
+  width: 36em;
+
+}
+
+.input_email_contato {
+
+
+ 
+
+  width: 36em;
+} 
+
+footer #email {
+
+  bottom: -6em;
+
+}
+
+.titulofooter {
+  left: -8em;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1080px){
+
+
+  .imglocalizacao {
+    top: -41em;
+    left: -333.9em;
+  }
+
+  .barrapesquisa {
+    position: relative;
+    left: -14em;
+    width: 45em;
+  }
+
+  .botao {
+    left: -12em;
+    top: 22.85em;
+    height: 3.5em;
+    width: 4em;
+  }
+
+  .titulo {
+    font-size: 27px;
+    left: 0.5em;
+    top: 10em;
+    
+  }
+
+  .loginface {
+    left: 5em;
+    width: 145px;
+  }
+  .btn_cadastro {
+
+    left: 13em;
+    
+  }
+
+  .btn_login {
+
+    left: 11.3em;
+  }
+  .input_senha_login {
+
+    left: 12em;
+  }
+
+  .input_nome_login {
+
+    left: 12em;
+    
+  }
+
+  .seta_rolagem img {
+    left: 31em;
+  }
+
+  #imagemcell {
+    width: 19em;
+    top: 67em;
+    left: 7em;
+  }
+
+  .imgoogle {
+    left: -13em;
+    top: 38.5em;
+  }
+  .tela-celular {
+    width: 17.2em;
+    height: 489px;
+    position: absolute;
+    left: 11.9%;
+    top: 119.3%;
+  }
+
+  .sobrenos li {
+    right: 33em;
+    top: -54em;
+  }
+
+  .lead {
+
+    left: 9em;
+    
+
+  }
+
+  .subdescricaoapp {
+    right: 2em;
+  }
+
+  p {
+    top: 2em;
+  }
+
+  .lampadaimg {
+    width: 374px;
+    height: 512px;
+    background: url(../img/lampadad.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    bottom: -20em;
+
+  }
+
+  .titulodescricaoapp {
+    position: relative;
+    top: -10.5em;
+    /* font-size: 3em; */
+    left: 7em;
+    font-size: 36px;
+  }
+
+
+  .hr1{
+    background: none;
+  }
+  .hrideia {
+    left: -12em;
+    top: -37.5em;
+  }
+  .hr2 {
+
+    background: none;
+  }
+
+  #slideshow {
+    right: 42em;
+  }
+
+  .setapreta {
+    top: 56em;
+    right: 31em;
+  }
+
+  .ideia p {
+    font-size: 21px;
+    left: -13em;
+  }
+
+  .tituloideia h1 {
+    left: -7.5em;
+    top: -1.2em;
+  }
+  .tituloideia h1::after {
+    width: 101.4%;
+  }
+
+  .imglocalizacao2 {
+    top: -43.5em;
+    left: -15.1em;
+  }
+
+  .lampadaimg {
+    width: 623px;
+    
+    bottom: -10em;
+    left: -16em;
+  }
+
+  .ideia {
+    height: 28em;
+    right: -1581px;
+    width: 44em;
+    left: -30em;
+    top: -9em;
+  }
+
+  
+
+  .mensagem_contato {
+   
+   
+   width: 35.9em;
+ }
+
+ .input_nome_contato {
+
+  width: 36em;
+
+}
+
+.input_email_contato {
+
+
+  
+  width: 36em;
+} 
+
+footer #email {
+  bottom: -11em;
+
+}
+
+.titulofooter {
+  left: -8em;
+}
+
+.btn_envia {
+  top: 0em;
+  left: 7.7em;
+  width: 8em;
+  height: 2.5em;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px){
+
+  .barrapesquisa {
+    border: none;
+    height: 4em;
+    width: 47em;
+    left: -17em;
+    position: relative;
+  }
+
+  .botao {
+    left: -8em;
+    top: 22.85em;
+    height: 3.5em;
+    width: 4em;
+  }
+
+  .titulo {
+    font-size: 26px;
+    left: 0em;
+    top: 10em;
+  }
+
+  .lead {
+    left: 7em;
+  }
+
+  .seta_rolagem img {
+    left: 29.6em;
+  }
+
+  .btn_login {
+    left: 12.3em;
+  }
+
+  .input_senha_login {
+    left: 13em;
+  }
+
+  .input_nome_login {
+    left: 13.5em;
+  }
+
+  .loginface {
+    left: 2em;
+    width: 145px;
+  }
+
+  #slideshow {
+    right: 39em;
+  }
+
+  .subdescricaoapp {
+    right: 0.5em;
+  }
+
+  .imgoogle {
+    left: -11em;
+  }
+
+  .titulodescricaoapp {
+   
+    top: -11.5em;
+    left: 7em;
+    font-size: 33px;
+  }
+
+  .setapreta {
+    top: 56em;
+    right: 27em;
+  }
+
+  .lampadaimg {
+    width: 468px;
+    bottom: -10em;
+    left: -14em;
+  }
+
+  .imgcelular {
+    left: 2em;
+  }
+
+}
+
+@media only screen and (max-width: 800px){
+
+  .barrapesquisa {
+    width: 38em;
+    left: -20em;
+  }
+  .botao {
+    left: -7em;
+  }
+  .titulo {
+    font-size: 24px;
+    top: 10em;
+    left: -0.5em;
+  }
+  .lead {
+    left: 2em;
+  }
+
+  .seta_rolagem img {
+    left: 22.6em;
+  }
+
+  .imgcelular {
+    width: 19em;
+    position: relative;
+    left: 2em;
+    top: 11em;
+  }
+
+  .subdescricaoapp {
+    width: 21em;
+    position: relative;
+    top: -11em;
+    font-size: 20px;
+    float: right;
+    right: 19em;
+    left: -1em;
+  }
+
+  .imgoogle {
+    left: -9.5em;
+    top: 31em;
+  }
+
+  .titulodescricaoapp {
+   
+    top: -9.5em;
+    left: 6.5em;
+    font-size: 25px;
+  }
+
+  .setapreta {
+    right: 24em;
+  }
+
+
+  .lampadaimg {
+    width: 410px;
+    bottom: -30em;
+    left: -21em;
+  }
+
+  .ideia p {
+    font-size: 18px;
+    left: -16em;
+    top: 16em;
+  }
+  .tituloideia h1 {
+    left: -8.5em;
+    top: 5.8em;
+
+  }
+
+  .tituloideia h1::after {
+    width: 92.4%;
+  }
+  
+
+  .hr2 {
+   background: none;
+ }
+
+ .titulofooter {
+  left: -11em;
+}
+
+.lampadaimg {
+  width: 385px;
+}
+
+#slideshow {
+  right: 31em;
+}
+
+
+footer #email {
+  bottom: -11em;
+  width: 5em;
+  left: 2em;
+}
+
+form.formulario_contato {
+  position: relative;
+  right: -9em;
+  cursor: pointer;
+  width: 19%;
+  height: 350px;
+}
+
+.logotipo {
+  display: none;
+
+}
+
+.input_senha_login {
+  left: 13em;
+  width: 10em;
+}
+.input_nome_login {
+  left: 13.5em;
+  width: 10em;
+}
+
+.loginface {
+  left: 6em;
+  width: 126px;
+  height: 37px;
+  top: 0.7em;
+}
+
+
+}
+
+
+

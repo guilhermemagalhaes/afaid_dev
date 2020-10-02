@@ -1,0 +1,24 @@
+{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.botao {
+    background: green;
+    float: right;
+    position: relative;
+    right: 26.3em;
+    top: 17.5em;
+    height: 4.1em;
+    border: none;
+    width: 6em;
+}
+
+form.busca {
+    position: relative;
+    background-color: #fff;
+    top: 18em;
+    width: 48%;
+    right: -23em;
+}
+

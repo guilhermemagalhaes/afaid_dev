@@ -1,0 +1,48 @@
+$(document).ready(function()
+{
+	
+	$("#notificationLink").click(function()
+	{
+		$("#notificationContainer").fadeToggle(300);
+		$("#notification_count").fadeOut("slow");
+		return false;
+	});
+
+//Document Click
+$(document).click(function()
+{
+	$("#notificationContainer").hide();
+});
+//Popup Click
+$("#notificationContainer").click(function()
+{
+	return false
+});
+
+});
+
+
+$(document).ready(function()
+{
+	$("#configuracaolink").click(function()
+	{
+		$("#notificationContainer1").fadeToggle(300);
+		$("#notification_count1").fadeOut("slow");
+		return false;
+	});
+
+//Document Click
+$(document).click(function()
+{
+	$("#notificationContainer1").hide();
+});
+//Popup Click
+$("#notificationContainer1").click(function()
+{
+	return false
+});
+
+});
+
+
+

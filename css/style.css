@@ -1,0 +1,631 @@
+@charset "UTF-8";
+* {
+  margin: 0 auto;
+  padding: 0; }
+
+  /*cabecalho da pagina*/
+
+  body{
+
+    overflow-x: hidden;
+  }
+  
+  header.login {
+    position: absolute;
+    background: #ff6624;
+    margin-left: 15em;
+    height: 6em;
+    width: 106em;
+  }
+
+  h1.logotipo {
+    float: left;
+    font-size: 43px;
+    display: block;
+    margin-left: 25px;
+    margin-top: 16px;
+    color: #fff;
+
+  }
+
+  .tela-celular
+  {
+    width: 300px;
+    height: 530px;
+    position: absolute;
+    left: 41.9%;
+    top: 18.7%;
+  }
+
+  /*form.formlogin{
+    display: inline-flex;
+  }*/
+
+ /* .input_nome_login
+  {
+    width: 300px;
+    border: none;
+    background: #fff;
+  }*/
+
+  .input_senha_login
+  {
+    width: 300px;
+    margin: 0px 10px;
+    border: none;
+    background: #fff;
+  }
+
+  .btn_login
+  {
+    width: 300px;
+    border: none;
+  }
+
+  .formlogin
+  {
+    position: absolute;
+    right: 22em;
+  }
+#logar{
+  background: #2196F3;
+  width: 280px;
+  color: white;
+  }
+  /*termino cabeçalho*/
+
+
+/*slide ed frases descriçao do app*/
+
+
+/*termino da pagina*/
+
+
+  /*inicio da pagina onde o usuario se insreve*/
+  div.pagprincipal {
+    background-image: url('../img/people.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: #E5EDF1;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* height: 72em; */
+  }
+
+
+
+  div.pagprincipal img.maomobile {
+    position: absolute;
+    bottom: -16em;
+    position: relative;
+    width: 40em;
+    margin-left: 10em; }
+
+
+    h2, p {
+      text-align: center;
+    }
+
+
+    .jumbotron{
+     width: 100%;
+     height: 100%;
+     /*background: rgba(0,0,0,0.4);*/
+     background: url("img/people.jpg");
+
+   }
+
+
+   .seta img{
+
+    position: absolute;
+    width: 6em;
+
+
+  }
+
+  .seta img:hover{
+
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+
+  }
+
+  .seta_rolagem{
+
+
+    position: absolute;
+    z-index: 999;
+    top: 62em;
+    left: 64.6em;
+  }
+
+  .setaposition{
+
+    top: 55em;
+    right: 69em;
+    position: absolute;
+
+  }
+  .setaposition img:hover{
+
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+
+  }
+
+
+
+  /*termino do pagina */
+
+
+
+
+
+  /*modal do video*/
+
+  .mascara
+  {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    display: none;
+  }
+
+  .button_play{
+    width: 100px;
+    height: 100px;
+    background: url("../img/play.png") center center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 200;
+    top: 24%;
+    right: 50%;
+  }
+
+  .modal
+  {
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    top: 100px;
+    display: none;
+    background: transparent;
+  }
+
+  .fechar
+  {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 250;
+    color: #fff;
+  }
+  
+  video
+  {
+    width: 1000px;
+    height: 628px;
+    z-index: 150;
+  }
+
+  /*termino modal video*/
+
+
+
+
+  /*apresentação do app*/
+  section.appmobile {
+   background-color: #22D3A7;
+   color: #22D3A7;
+   position: relative;
+   height: 61em;
+   bottom: 25.7em;
+ }
+
+
+ #imagemcell{
+
+
+  right: 12em;
+  width: 58em;
+  left: 11em;
+  position: absolute;
+  top: 3em;
+
+}
+
+.numeros_instrucao img{
+
+  width: 6em;
+
+}
+
+.um_intr{
+  width: 84px;
+  height: 84px;
+  background: url(../img/apresentacaoapp/um.png);
+  background-size: contain;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  right: 29em;
+  top: 7em;
+}
+
+.dois_intr{
+  width: 84px;
+  height: 84px;
+  background: url(../img/apresentacaoapp/dois.png);
+  position: relative;
+  float: left;
+  top: 15em;
+  left: 29em;
+  cursor: pointer;
+  background-size: contain;
+
+}
+
+.tres_intr{
+  width: 84px;
+  height: 84px;
+  background: url(../img/apresentacaoapp/tres.png);
+  position: relative;
+  float: right;
+  top: 27em;
+  right: 22.8em;
+  cursor: pointer;
+  background-size: contain;
+}
+.quatro_intr{
+  width: 84px;
+  height: 84px;
+  background: url(../img/apresentacaoapp/quatro.png);
+
+  position: relative;
+  float: left;
+  top: 37em;
+  left: 22.7em;
+  cursor: pointer;
+  background-size: contain;
+
+}
+
+.cinco_intr{
+  width: 84px;
+  height: 84px;
+  background: url(../img/apresentacaoapp/cinco.png);
+  position: relative;
+  float: right;
+  top: 46em;
+  right: 16.6em;
+  cursor: pointer;
+  background-size: contain;
+
+
+}
+
+
+
+/*termino*/
+
+/*inicio da pagina dos integrantes*/
+
+section.sobrenos{
+
+  color: #fff;
+  position: relative;
+  height: 54em;
+  bottom: 21em;
+}
+
+.lampadaimg{
+  width: 512px;
+  height: 512px;
+  background: url("../img/lampadad.png");
+  background-position: center center;
+  background-size: contain;
+  position: relative;
+  bottom: -19em;
+  left: -55em;
+}
+
+.sobrenos li {
+  display: inline;
+
+  width: -8em;
+  height: 39em;
+
+  top: -66em;
+  position: relative;
+  right: -48em;
+
+}
+.integrante{
+
+
+
+width: 9em;
+    padding-left: 2em;
+    margin-top: -15px;
+}
+
+.tituloideia{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff920a+18,ffaf4b+69,ffaf4b+73,ffaf4b+76,ffaf4b+76,ffaf4b+81,ffaf4b+81,ffaf4b+100 */
+background: #ff920a; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ff920a 18%, #ffaf4b 69%, #ffaf4b 73%, #ffaf4b 76%, #ffaf4b 76%, #ffaf4b 81%, #ffaf4b 81%, #ffaf4b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ff920a 18%,#ffaf4b 69%,#ffaf4b 73%,#ffaf4b 76%,#ffaf4b 76%,#ffaf4b 81%,#ffaf4b 81%,#ffaf4b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ff920a 18%,#ffaf4b 69%,#ffaf4b 73%,#ffaf4b 76%,#ffaf4b 76%,#ffaf4b 81%,#ffaf4b 81%,#ffaf4b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff920a', endColorstr='#ffaf4b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  width: 100%;
+  height: 5em;
+
+}
+
+.tituloideia h1{
+
+  text-align: center;
+  font-size: 36px;
+  top: 0.5em;
+  position: relative;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.ideia{
+  transition: all 1.5s;
+  
+  height: 30em;
+  position: relative;
+  right: -1581px;
+  width: 90em;
+  opacity: 0;
+  text-decoration-color: ;
+  border-radius: 25px;
+color: black;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dfe5d7+74,fcfff4+98,fcfff4+98,b3bead+100 */
+background: #dfe5d7; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #dfe5d7 74%, #fcfff4 98%, #fcfff4 98%, #b3bead 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #dfe5d7 74%,#fcfff4 98%,#fcfff4 98%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #dfe5d7 74%,#fcfff4 98%,#fcfff4 98%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe5d7', endColorstr='#b3bead',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.ideia p {
+
+
+  font-size: 36px;
+}
+
+.setapreta{
+
+position: absolute;
+    top: 6em;
+
+}
+
+.setapreta img:hover{
+
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+
+  }
+
+  .positionsetapreta{
+
+top: 0;
+
+  }
+
+  .descricao_integrante{
+
+color: black;
+
+  }
+
+  .titulo-p1{
+position: absolute;
+    top: 146px;
+    color: black;
+    font-size: 2.1em;
+left: 1.5em;
+  }
+
+
+/* termino da pag*/
+
+
+/*rodapé da pagina*/
+footer{
+ position: relative;
+ bottom: 0px;
+ height: 40em;
+ background-color: #549BBF;
+}
+
+
+footer #email{
+
+  position: relative;
+  bottom: -10em;
+  left: 7em;
+
+}
+
+.fundo{
+  background: red;
+}
+
+form.formulario_contato{
+        position: relative;
+    right: -18em;
+    top: -4em;
+}
+
+.input_nome_contato{
+
+background-color: #fff;
+    border: none;
+    height: 3.8em;
+    padding-bottom: 12px;
+    margin-bottom: 1em;
+}
+
+.input_email_contato{
+
+background-color: #fff;
+    border: none;
+    height: 3.8em;
+
+}
+.mensagem_contato{
+
+  margin-top: 1em;
+}
+
+.btn_envia{
+
+    border: none;
+    border-radius: 20px;
+    width: 12em;
+    margin-top: 1em;
+    
+}
+.titulofooter{
+
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    top: 18px;
+}
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+/*formulario de cadastro*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+.form-control{
+  background: transparent;
+}
+
+
+.container > .row > .form_cad_slide{
+  position: relative;
+  right: -960px;
+  transition: all 1.5s;
+  opacity: 0;
+  text-indent: inherit;
+
+}
+
+form {
+  width: 320px;
+  margin: 20px;
+}
+form > div {
+  position: relative;
+  overflow: hidden;
+}
+form input {
+  width: 100%;
+  border: 2px solid gray;
+  background: none;
+  /*position: relative;*/
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 8px 12px;
+  outline: 0;
+}
+form input:valid, form textarea:valid {
+  background: white;
+}
+form input:focus, form textarea:focus {
+  border-color: #ff6624;
+}
+form input:focus + label, form textarea:focus + label {
+  background: #ff6624;
+  color: white;
+  font-size: 70%;
+  padding: 1px 6px;
+  z-index: 2;
+  text-transform: uppercase;
+}
+form label {
+  -webkit-transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+  transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+  position: absolute;
+  color: #999;
+  padding: 7px 6px;
+  font-weight: normal;
+}
+
+form.go-bottom input, form.go-bottom textarea {
+  padding: 12px 12px 12px 12px;
+}
+form.go-bottom label {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+form.go-bottom input:focus, form.go-bottom textarea:focus {
+  padding: 4px 6px 20px 6px;
+}
+form.go-bottom input:focus + label, form.go-bottom textarea:focus + label {
+  top: 100%;
+  margin-top: -16px;
+}
+form.go-right label {
+  border-radius: 0 5px 5px 0;
+  height: 100%;
+  top: 0;
+  /*display: inherit;*/
+  right: 81%;
+  width: 100%;
+  margin-right: -100%;
+}
+form.go-right input:focus + label, form.go-right textarea:focus + label {
+  right: 0;
+  margin-right: 0px;
+  width: 40%;
+  padding-top: 5px;
+}
+
+.col-md-9{
+  width: 60%;
+  float: right;
+  bottom: -27em;
+  background-color: #E0E6ED;
+
+  border-radius: 3px;
+}
+
+
+
+
+

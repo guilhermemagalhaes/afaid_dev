@@ -1,0 +1,309 @@
+body#bd{
+	/*background: #ecf0f1*/
+}
+
+.configuracoestitulo{
+	/* margin-left: 431px; */
+	/* color: whitesmoke; */
+	border-bottom: 1px solid black;
+}
+.configuracoestitulo h2{
+	margin-left: 445px; 
+	/* color: whitesmoke; */
+	
+}
+.foto{
+	width: 138px;
+	margin-left: 180px;
+}
+.foto img{
+	border-radius: 100px;
+	width: 300px;
+	margin-top: 25px;
+	margin-left: 155px;
+}
+#alterar-foto {
+    margin-left: 271px;
+    width: 560px;
+    position: absolute;
+    margin-top: -140px;
+    
+}
+div#foto-perfil{
+ /*overflow:hidden;*/
+}
+
+	
+
+		a#alterar-foto{
+		 font-size:1.3em;
+		 border-radius: 100px;
+		  text-decoration:none;
+		   display:block; 
+		   /*float:left; */
+		   width:250px; 
+		   text-align:center;
+		    color:#FFF;
+		     margin-top: -45px;
+		     background:rgba(0,0,0,0.5); 
+		     padding:0.4em 0; 
+		     display:none;
+		     margin-left: 180px;
+		}
+		div#foto-perfil:hover a{ 
+			display:block;
+		}	
+
+.inp{
+	margin-top: 0px;
+	width: 981px;
+	height: 500px;
+	margin-left: 10px;
+
+}
+.conta{
+	margin-left: 70px;
+}
+.linha2{
+	border-bottom: 1px solid white;
+}
+.dnome{
+	width: 980px;
+	height: 70px;
+	margin-left: -20px;
+	margin-bottom: 5px;
+	background: black;
+	margin-top: 10px;
+}
+.tnome{
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+}
+.inome{
+	width: 400px;
+	border: none;
+	height: 50px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	border-radius: 4px;
+	margin-left: 205px;
+	margin-top: 10px;
+}
+.inome:hover{
+	background: white;
+	width: 400px;
+	border: none;
+	height: 50px;
+	font-size: 30px;
+	border: 4px;
+	color: black;
+	/*color: white;*/
+}
+.demail{
+	width: 980px;
+	height: 70px;
+	margin-left: -20px;
+	margin-bottom: 5px;
+	background: black;
+	
+}
+.temail{
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+}
+.iemail{
+	width: 400px;
+	border: none;
+	height: 50px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	border-radius: 4px;
+	margin-left: 205px;
+	margin-top: 10px;
+}
+.iemail:hover{
+	background: white;
+	width: 400px;
+	border: none;
+	height: 50px;
+	font-size: 30px;
+	border: 4px;
+	color: black;
+	/*color: white;*/
+}
+.dsenha{
+	width: 980px;
+	height: 70px;
+	margin-left: -20px;
+	margin-bottom: 5px;
+	background: black;
+	
+}
+.tsenha{
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+}
+.isenha{
+	width: 400px;
+	border: none;
+	height: 50px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	border-radius: 4px;
+	margin-left: 205px;
+	margin-top: 10px;
+}
+.isenha:hover{
+	background: white;
+	width: 400px;
+	border: none;
+	height: 50px;
+	font-size: 30px;
+	border: 4px;
+	color: black;
+	/*color: white;*/
+}
+.dnascimento{
+	width: 980px;
+	height: 70px;
+	margin-left: -20px;
+	margin-bottom: 5px;
+	background: black;
+	
+}
+.tnascimento{
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+}
+.inascimento{
+	width: 400px;
+	border: none;
+	height: 50px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	border-radius: 4px;
+	margin-left: 205px;
+	margin-top: 10px;
+}
+.inascimento:hover{
+	background: white;
+	width: 400px;
+	border: none;
+	height: 50px;
+	font-size: 30px;
+	border: 4px;
+	color: black;
+	/*color: white;*/
+}
+.ddef{
+	width: 980px;
+	height: 70px;
+	margin-left: -20px;
+	margin-bottom: 5px;
+	background: black;
+	
+}
+.tdef{
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+}
+.idef{
+	width: 400px;
+	border: none;
+	height: 50px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	border-radius: 4px;
+	margin-left: 205px;
+	margin-top: 10px;
+}
+.idef:hover{
+	background: white;
+	width: 400px;
+	border: none;
+	height: 50px;
+	font-size: 30px;
+	border: 4px;
+	color: black;
+	/*color: white;*/
+}
+.dsexo{
+	width: 980px;
+	height: 70px;
+	margin-left: -20px;
+	margin-bottom: 5px;
+	background: black;
+	
+}
+.dsexo:hover{
+	width: 980px;
+	height: 70px;
+	margin-left: -20px;
+	margin-bottom: 5px;
+	background: red;
+	
+}
+.tsexo{
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+}
+.isexo{
+	width: 400px;
+	border: none;
+	height: 50px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	border-radius: 4px;
+	margin-left: 205px;
+	margin-top: 10px;
+}
+.isexo:hover{
+	background: white;
+	width: 400px;
+	border: none;
+	height: 50px;
+	font-size: 30px;
+	border: 4px;
+	color: black;
+	/*color: white;*/
+}
+
+.alterar{
+	background: rgba(46, 204, 113,1.0);
+	color: white;
+	border: none;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	margin-left: 500px;
+}
+
+
+
+
+
+@media screen and (max-width: 770px) {
+
+
+}
+
+@media screen and (max-width: 560px) {
+
+}
+
+/*@media only screen and (min-width: 992px) { ... }
+
+@media only screen and (min-width: 1382px) { ... }
+*/

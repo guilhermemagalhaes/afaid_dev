@@ -1,0 +1,84 @@
+#divimgperfil{
+  /*margin-left: 700px;*/
+}
+/*#amigos{
+  background: #ecf0f1;
+  float: right;
+  margin-top: 10px;
+  margin-left: 100px;
+}*/
+#imgperfil{
+  position: absolute;
+  margin-top: -260px;
+  margin-left: 70px;
+  /*z-index: 1;*/
+  width: 300px;
+  height: 300px;
+  border-radius: .25rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.nomeusuario {
+    margin-top: -70px;
+    height: 75px;
+    margin-left: 359px;
+    color: black;
+    width: 80%;
+    background:rgba(0,0,0,0.3); 
+    position: absolute;
+}
+#nomeuser{
+  font-size: 40px;
+  color: black;
+  margin-left: 50px;
+  /*position: fixed;*/
+}
+.adamigo{
+  color: white;
+}
+.adamigo:hover{
+  color: white;
+}
+  a#alterar-foto
+    {
+      font-size:1.3em;
+      text-decoration:none;
+      z-index: 1;
+      margin-top: -1px;
+      margin-left: 203px;
+      position: absolute;
+      text-align:center;
+      color:#FFF;
+      /*margin-top:-2.2em;*/
+      background:rgba(0,0,0,0.3);
+      padding:0.4em 0;
+      border-radius: 9px;
+      }
+        a#alterar-foto2
+    {
+        font-size: 1.3em;
+        text-decoration: none;
+        z-index: 1;
+        margin-top: -596px;
+        margin-left: 1884px;
+        position: absolute;
+        text-align: center;
+        color: #FFF;
+        /* margin-top: -2.2em; */
+        background: rgba(0,0,0,0.3);
+        padding: 0.4em 0;
+      }
+           a#alterar-foto2:hover{  
+        background: rgba(0,0,0,0.6);
+      }
+a#alterar-foto:hover
+    { 
+           background:rgba(0,0,0,0.6);
+           
+      }
+
+#lin{
+  color: white;
+}
+#lin:hover{
+  color: white;
+}

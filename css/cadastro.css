@@ -1,0 +1,15 @@
+#seg{
+	height: 6%;
+	width: 100%;
+	background: #ff6624;
+	border: none;
+	border-radius: 0;
+	height: 11%;
+	top: 0px;
+}
+#logo_cadastro{
+	 width: 9em;
+      top: 11px;
+      position: absolute;
+      left: 3em;
+}
