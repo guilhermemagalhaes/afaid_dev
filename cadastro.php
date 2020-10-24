@@ -481,6 +481,15 @@ if (isset($accessToken)) {
           <label>Telefone</label>
           <input value="" type="text" name="telefone" placeholder="Telefone">
         </div>
+        <div class="field">
+          <label>Plano</label>
+          <select>
+              <option>Plano A - R$100,00</option>
+              <option>Plano B - R$150,00</option>
+              <option>Plano C - R$200,00</option>
+              <option>Plano D - R$250,00</option>
+          </select>          
+        </div>
       </div>
     </div>
     <!-- daqui pra cima -->

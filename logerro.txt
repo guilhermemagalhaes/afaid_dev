@@ -19,3 +19,7 @@ erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid\classes\DB.class.php ( 
 erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid\classes\DB.class.php ( linha 17 ) :: IP(::1) data:02/10/20 02:33:05
 erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid_hospedagem\classes\DB.class.php ( linha 17 ) :: IP(::1) data:02/10/20 02:33:25
 erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid_hospedagem\classes\DB.class.php ( linha 17 ) :: IP(::1) data:02/10/20 02:33:30
+erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid_hospedagem\classes\DB.class.php ( linha 17 ) :: IP(::1) data:24/10/20 00:26:58
+erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid_hospedagem\classes\DB.class.php ( linha 17 ) :: IP(::1) data:24/10/20 00:27:10
+erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid_hospedagem\classes\DB.class.php ( linha 17 ) :: IP(::1) data:23/10/20 19:27:38
+erro: CAUGHT EXCEPTION no arquivo: C:\xampp\htdocs\afaid_hospedagem\classes\DB.class.php ( linha 17 ) :: IP(::1) data:24/10/20 00:27:49
