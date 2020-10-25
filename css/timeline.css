@@ -13,6 +13,11 @@ body{
   width: 55%;
 }
 
+#clpostsbuttons{
+  width: 96.4%;
+  padding: 0;
+}
+
 /*botao para abrir modal site*/
 #btnsite{
   height: 20%;

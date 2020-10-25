@@ -52,16 +52,26 @@
       </style>
       <div class="field" style="height:120px;">
        <fieldset class="rating">
-        <input type="radio" id="star5" name="nota" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
-        <input type="radio" id="star4half" name="nota" value="4.5" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-        <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-        <input type="radio" id="star3half" name="nota" value="3.5" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-        <input type="radio" id="star3" name="nota" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
-        <input type="radio" id="star2half" name="nota" value="2.5" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-        <input type="radio" id="star2" name="nota" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-        <input type="radio" id="star1half" name="nota" value="1.5" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-        <input type="radio" id="star1" name="nota" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-        <input type="radio" id="starhalf" name="nota" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+        <input type="radio" id="star52" name="nota" value="5" />
+        <label class = "full" for="star52" title="Awesome - 5 stars"></label>
+        <input type="radio" id="star4half2" name="nota" value="4.5" />
+        <label class="half" for="star4half2" title="Pretty good - 4.5 stars"></label>
+        <input type="radio" id="star42" name="nota" value="4" />
+        <label class = "full" for="star42" title="Pretty good - 4 stars"></label>
+        <input type="radio" id="star3half2" name="nota" value="3.5" />
+        <label class="half" for="star3half2" title="Meh - 3.5 stars"></label>
+        <input type="radio" id="star32" name="nota" value="3" />
+        <label class = "full" for="star32" title="Meh - 3 stars"></label>
+        <input type="radio" id="star2half2" name="nota" value="2.5" />
+        <label class="half" for="star2half2" title="Kinda bad - 2.5 stars"></label>
+        <input type="radio" id="star22" name="nota" value="2" />
+        <label class = "full" for="star22" title="Kinda bad - 2 stars"></label>
+        <input type="radio" id="star1half2" name="nota" value="1.5" />
+        <label class="half" for="star1half2" title="Meh - 1.5 stars"></label>
+        <input type="radio" id="star12" name="nota" value="1" />
+        <label class = "full" for="star12" title="Sucks big time - 1 star"></label>
+        <input type="radio" id="starhalf2" name="nota" value="half" />
+        <label class="half" for="starhalf2" title="Sucks big time - 0.5 stars"></label>
       </fieldset>
     </div>
     <div class="field">

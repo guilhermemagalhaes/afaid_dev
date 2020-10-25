@@ -143,7 +143,7 @@ include('includes/perfilmenu.php');
  ?>
  <!-- <h3 class="ui header">Avalie ou denuncie</h3> -->
  <!-- botao adicionar novo post (site) -->
- <div class="ui centered basic segment">
+ <div class="ui centered basic segment" id="clpostsbuttons">
   <!-- <img src="img/webicon.png" > -->
   <button style=" box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);" id="btnsite" id="btnsite" class="ui teal button"><h2>Avaliar site</h2></button>
   <!-- botao adicionar novo post (local) -->
@@ -235,15 +235,14 @@ include('includes/perfilmenu.php');
     <?php
   }
   ?>
+
+  <div style="text-align: center; width: 78%;">
+    <a style="width: 100%;" class="ui orange active button" href="javascript:func()" id="mais">Mais avaliações »</a>
+  </div>
+
 </div>
 </div>
 <span id="status"></span> 
-<a style="
-left: 32%;
-margin-bottom: 20px;
-position: absolute;
-width: 41%;
-" class="ui orange active button" href="javascript:func()" id="mais">Mais avaliações »</a>
 <!-- <button class="ui loading button" style="opacity: 0;">Loading</button> -->
 <!-- codigo responsavel por verificar se editar e do usuario e editar post de local e site -->
 <?php 
