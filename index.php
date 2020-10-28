@@ -117,7 +117,7 @@ include('includes/cabecalho.php');
      ?>
      <!-- <h3 class="ui header">Avalie ou denuncie</h3> -->
      <!-- botao adicionar novo post (site) -->
-     <div class="ui centered basic segment">
+     <div class="ui centered basic segment" id="clpostsbuttons">
       <!-- <img src="img/webicon.png" > -->
       <button style=" box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);" id="btnsite" id="btnsite" class="ui teal button"><h2>Avaliar site</h2></button>
       <!-- botao adicionar novo post (local) -->

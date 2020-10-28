@@ -109,7 +109,7 @@ include('includes/menu.php');
 ?>
 <!-- fim do menu superior -->
 <!-- começo de todo conteudo -->
-<div class="ui  stackable five column grid" style="margin-top: 450px;">
+<div class="ui  stackable five column grid" style="height: 500px;">
   <!-- upload foto de perfil -->
   <?php
   if(isset($_GET['perfil']) AND $_GET['perfil']=='UPLOAD'){
@@ -162,7 +162,7 @@ if ($user_perfil == 3) {
 }
 ?>
 <?php if($idDaSessao==$idExtrangeiro): ?>
-  <a href="perfil.php?perfil=UPLOADCAPA" id="alterar-foto2" ><i class="photo large icon"></i></a>
+  <a href="perfil.php?perfil=UPLOADCAPA" id="alterar-foto2" alt="capa de perfil" ><i class="photo large icon"></i></a>
 <?php endif; ?>
 <div class="ui clearing segment" style="
 width: 100%;
@@ -178,7 +178,7 @@ background: rgba(0,0,0,0.3);
   <img style="position: absolute;" id="imgperfil" src="<?php echo $_SESSION['imagemperfil'] ?>">
 
   <?php if($idDaSessao==$idExtrangeiro): ?>
-    <a href="perfil.php?perfil=UPLOAD" id="alterar-foto"  ><i class="photo large icon"></i></a>
+    <a href="perfil.php?perfil=UPLOAD" id="alterar-foto" style="padding: 5px 1px 5px 5px;"  ><i class="photo large icon"></i></a>
   <?php endif; ?>
 </div>
 <h1 class="ui center aligned header" style="color: white">  <?php  echo "$user_nome";?></h1>
@@ -249,7 +249,7 @@ background: rgba(0,0,0,0.3);
     </script>
     <div class="ui column grid" style="
     width: 105%;
-    margin-top: 5px;
+    margin-top: 120px;
     ">
     <h4 title="Avaliações recentes" class="ui horizontal divider header" style="
     margin-top: 10px;
@@ -287,16 +287,18 @@ background: rgba(0,0,0,0.3);
 <?php
 }
 ?>
+
+<div  class=" ui centered column" style="
+  width: 800px;">  
+  <a style="
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  " class="ui orange active button" href="javascript:func()" id="mais">Mais avaliações »</a>
+  </div>
+
 </div>
 <span id="status"></span> 
-<div  class=" ui centered column" style="
-width: 820px;">  
-<a style="
-margin-bottom: 20px;
-width: 100%;
-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-" class="ui orange active button" href="javascript:func()" id="mais">Mais avaliações »</a>
-</div>
 <!-- codigo responsavel por verificar se editar e do usuario e editar post de local e site -->
 <?php 
 if(isset($_SERVER['REQUEST_METHOD']) AND $_SERVER['REQUEST_METHOD'] == 'POST'){

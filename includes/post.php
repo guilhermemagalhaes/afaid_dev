@@ -15,6 +15,8 @@
          <div id="acess" style="
          background: white;
          color: black;
+         padding-right: 0;
+         padding-top: 20px;
          " class="ui right floated button"><i class=" big angle down icon"></i></div>
          <div class="ui inverted popup">
           <form action="timeline" method="POST" >
