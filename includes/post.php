@@ -214,6 +214,19 @@
           <div class="item">Duvidosa</div>
         </div>
       </div>
+      <div class="ui compact selection dropdown" style="padding: 5px 15px 5px 10px">
+        <input type="hidden" name="reacao">
+        <i class="dropdown icon"></i>
+        <div class="text"><img src="images/default.jpeg"></div>
+        <div class="menu">
+          <div class="item"><img src="images/haha.png"></div>
+          <div class="item"><img src="images/love.png"></div>
+          <div class="item"><img src="images/plus.png"></div>
+          <div class="item"><img src="images/raiva.png"></div>
+          <div class="item"><img src="images/triste.png"></div>
+          <div class="item"><img src="images/uau.png"></div>
+        </div>
+      </div>
       <button class="ui positive button" type="submit"><i class="white large send outline icon"></i></button>
     </div>
   </div>
